@@ -8,5 +8,10 @@ const parse = function(raw) {
   return raw.trim().split('\n');
 };
 
+const display = function(texts) {
+  return texts.join('\n');
+}
+
 exports.read = read;
 exports.parse = parse;
+exports.display = display;
