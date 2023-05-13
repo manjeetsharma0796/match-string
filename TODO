@@ -1,0 +1,36 @@
+first read both files 
+file1 
+file2
+
+split and keep in array
+there will be two arrays
+
+first cut idea 
+
+capture word from file1 first element
+then test if present in any of them in second file array
+
+if yes then push it into new array(matched)
+
+now move to second element of array of file1
+again capture words \w 
+then test if present in any of them in second file array
+-----------
+
+second cut idea 
+using object
+
+capture only letter and make entries of captured letter and keep value of whole string
+
+do this for both files
+it will look like this
+
+file1 = {
+  oklw: 79oklw,
+  jstc: 381jstc
+}
+
+file2 = {
+  jstc: jstc331,
+  oklw: oklw737
+}
